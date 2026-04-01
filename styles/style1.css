@@ -1,0 +1,94 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.titulo {
+    margin: 0;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.texto {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.subtitulo {
+    font-size: 24px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.subsubtitulo {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.lista {
+    padding-left: 20px;
+}
+
+.imagen {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+.poema {
+    font-style: italic;
+    background-color: #fafafa;
+    padding: 10px;
+    border-left: 4px solid #333;
+}
+
+
+.email {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
