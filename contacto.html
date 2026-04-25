@@ -9,7 +9,7 @@
 <body>
 
 <header class="header">
-    <h1 class="titulo">Mi sitio Personal!</h1>
+    <h1 class="titulo">Mi sitio Personal</h1>
     <nav>
         <ul class="menu">
             <li><a href="index.html">Inicio</a></li>
@@ -19,20 +19,30 @@
     </nav>
 </header>
 
-<main class="main main-contacto">
+<main class="main main-contacto" style="text-align: center;">
 
-    <h2 class="subtitulo">Contacto</h2>
+    <h2 class="subtitulo">Ponerse en contacto</h2>
+    <p class="texto" style="margin-bottom: 20px;">¿Tenés alguna consulta o querés trabajar en un proyecto conmigo? Dejame un mensaje:</p>
 
-    <a class="email" href="mailto:alangabrielquintero@gmail.com">
-        alangabrielquintero@gmail.com
-    </a>
+    <form class="contact-form">
+        <input type="text" placeholder="Nombre completo" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <textarea rows="6" placeholder="Escribí tu mensaje aquí..." required></textarea>
+        <button type="submit" class="btn-submit">Enviar Formulario</button>
+    </form>
+
+    <p style="margin-top: 30px;">
+        O escribime directamente a:<br>
+        <a class="email vinculo_otras" href="mailto:alangabrielquintero@gmail.com">
+            alangabrielquintero@gmail.com
+        </a>
+    </p>
 
 </main>
 
 <footer class="footer">
-    <p>Curso: "Diseño y Desarrollo Web"</p>
-    <p>Año: 2026</p>
-    <p>Todos los derechos reservados</p>
+    <p>Curso: Diseño y Desarrollo Web</p>
+    <p>Año: 2026 | Todos los derechos reservados</p>
 </footer>
 
 </body>
