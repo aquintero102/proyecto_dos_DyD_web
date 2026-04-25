@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="./styles/style1.css">
 </head>
 <body>
-    <header class="header">
+
+<header class="header">
     <h1 class="titulo">Mi sitio Personal</h1>
-    <nav class="nav">
+    <nav>
         <ul class="menu">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="intereses.html">Intereses</a></li>
@@ -19,37 +20,42 @@
 </header>
 
 <main class="main main-intereses">
-    <h2 class="subtitulo intereses-subtitulo">Intereses</h2>
 
-    <ul class="lista intereses-lista">
+    <h2 class="subtitulo">Intereses</h2>
+
+    <ul class="lista">
         <li>Literatura</li>
         <li>Programar</li>
         <li>Gimnasio</li>
         <li>Política</li>
-        <li><a href="#poesia">Poesia</a></li>
+        <li><a href="#poesia" class="vinculo_otras">Poesía</a></li>
     </ul>
 
-    <img class="imagen intereses-imagen" src="https://urgenciesveterinaries.com/wp-content/uploads/2023/09/survet-gato-caida-pelo-01.jpeg" alt="gatos">
+    <div class="div-intereses">
+        <img class="imagen" src="https://urgenciesveterinaries.com/wp-content/uploads/2023/09/survet-gato-caida-pelo-01.jpeg" alt="gatos">
 
-    <p class="texto intereses-texto">Lorem ipsum...</p>
+        <p class="texto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+    </div>
 
-    <h3 id="poesia" class="subsubtitulo intereses-subsubtitulo">Poesia</h3>
+    <h3 id="poesia" class="subsubtitulo">Poesía</h3>
 
-    <h3 class="subsubtitulo intereses-subsubtitulo">
-        <a href="https://poemas.uned.es/poema/lluvia-raul-gonzalez-tunon/" target="_blank" class="vinculo_otras intereses-vinculo">
-            Otras
-        </a>
-    </h3>
+    <a href="https://poemas.uned.es/poema/lluvia-raul-gonzalez-tunon/" target="_blank" class="vinculo_otras">
+        Ver poema
+    </a>
 
-    <p class="poema intereses-poema">
+    <p class="poema">
         Porque te tengo y no...
     </p>
-</main>
-    <footer class="footer">
-        <p>Curso: "Diseño y Desarrollo Web"</p>
-        <p>Año: 2026</p>
-        <p>Todos los derechos reservados</p>
 
-    </footer>
+</main>
+
+<footer class="footer">
+    <p>Curso: "Diseño y Desarrollo Web"</p>
+    <p>Año: 2026</p>
+    <p>Todos los derechos reservados</p>
+</footer>
+
 </body>
 </html>
